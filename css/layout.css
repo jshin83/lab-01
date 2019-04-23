@@ -1,0 +1,44 @@
+@media screen and (min-width: 768px) {
+  main {
+    width: 960px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+  main {
+    width: 480px;
+  }
+}
+
+main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  float: left;
+  margin: 0 auto;
+  display: block;
+
+}
+
+p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div:nth-child(2) {
+  content: "";
+  display: table;
+  clear: left;
+}
+
+div:nth-child(4) {
+  content: "";
+  display: table;
+  clear: right;
+}
