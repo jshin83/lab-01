@@ -1,0 +1,26 @@
+main {
+  /*text-align: center;
+  */
+}
+
+div {
+  background-color: lightgray;
+  outline: 1px solid darkgray;
+  text-align: center;
+  color: darkslategrey;
+  position: relative;
+  /*margin: 0 auto;
+  /*content: "";
+  display: table;
+  clear: both;*/
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
