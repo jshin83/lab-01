@@ -1,12 +1,12 @@
 @media screen and (min-width: 768px) {
   main {
-    width: 960px;
+    max-width: 960px;
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   main {
-    width: 480px;
+    max-width: 480px;
   }
 }
 
@@ -18,9 +18,8 @@ main {
 
 div {
   float: left;
-  margin: 0 auto;
-  display: block;
-
+  /*margin: 0 auto;
+  display: block;*/
 }
 
 p {
@@ -31,14 +30,14 @@ p {
   transform: translate(-50%, -50%);
 }
 
-div:nth-child(2) {
+/*div:nth-child(2) {
   content: "";
   display: table;
   clear: left;
-}
+}*/
 
-div:nth-child(4) {
+/*div:nth-child(4) {
   content: "";
   display: table;
   clear: right;
-}
+}*/
