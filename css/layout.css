@@ -18,8 +18,6 @@ main {
 
 div {
   float: left;
-  /*margin: 0 auto;
-  display: block;*/
 }
 
 p {
@@ -30,14 +28,3 @@ p {
   transform: translate(-50%, -50%);
 }
 
-/*div:nth-child(2) {
-  content: "";
-  display: table;
-  clear: left;
-}*/
-
-/*div:nth-child(4) {
-  content: "";
-  display: table;
-  clear: right;
-}*/
